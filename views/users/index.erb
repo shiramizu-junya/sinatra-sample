@@ -1,0 +1,8 @@
+<h1>ユーザー一覧画面</h1>
+<% @users_hash.each do |user| %>
+  <div>id: <%= user[:id] %></div>
+  <div>name: <%= user[:name] %></div>
+  <hr>
+<% end %>
+<p><%= @rs %></p>
+<p><%= @users_hash %></p>
